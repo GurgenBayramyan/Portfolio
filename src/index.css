@@ -13,5 +13,11 @@ body {
   margin: 0;
 }
 
+.goals{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(43, 97, 116);
+  cursor: progress;
 
+}
 

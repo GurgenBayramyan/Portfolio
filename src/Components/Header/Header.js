@@ -1,12 +1,12 @@
 import React from 'react'
 import "./style.css"
-import Cv from './Cv/Cv.pdf'
+import Cv from './CV/Gurgen Bayramyan Front end Developer.pdf'
 export default function Header() {
   return (
     <header className="header">
         <div className="header__wrapper">
             <h1 className="header__title">
-                <strong>Hi, my name is <em>Gurgem</em></strong><br/>
+                <strong>Hi, my name is <em>Gurgen</em></strong><br/>
                 a frontend developer
             </h1>
             <div className="header__text">

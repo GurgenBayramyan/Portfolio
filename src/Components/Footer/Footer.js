@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="container">
             <div className="footer__wrapper">
                 <ul className="social">
-                    <li className="social__item"><a href="#!"><img src={instagram} alt="Link"/></a></li>
+                    <li className="social__item"><a href="https://www.instagram.com/_bayramian/" target="_blank"><img src={instagram} alt="Link"/></a></li>
                     <li className="social__item"><a href="https://github.com/GurgenBayramyan" target="_blank"><img src={gitHub} alt="Link"/></a></li>
                     <li className="social__item"><a href="https://www.linkedin.com/in/gurgen-bayramyan-5b7b57254" target="_blank"><img src={linkedin} alt="Link"/></a></li>
                 </ul>

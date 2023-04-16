@@ -1,6 +1,9 @@
 import React from 'react'
 import Project from '../Components/Projects/Project'
-
+import img1 from '../WorkImgs/movie.png'
+import img2 from '../WorkImgs/Color Design.png'
+import img3 from '../WorkImgs/typingGame.png'
+import img4 from '../WorkImgs/ToDoListApi.png'
 export default function() {
   return (
     <>
@@ -10,23 +13,23 @@ export default function() {
             <ul className="projects">
                 <Project
                  href={"/project/1"}
-                 src={"./Workimgs/movie.png"}
+                 src={img1}
                  title={"MovieApp"}
                  />
                 <Project 
                   href={"/project/2"}
-                  src={"./Workimgs/Color Design.png"}
+                  src={img2}
                   title={"Color Design"}
                 />
                
                 <Project 
                   href={"/project/3"}
-                  src={"./Workimgs/TypingGame.png"}
+                  src={img3}
                   title={"Typing Game"}
                 />
                 <Project 
                   href={"/project/4"}
-                  src={"./Workimgs/ToDoListApi.png"}
+                  src={img4}
                   title={"To Do List API"}
                 />
 
