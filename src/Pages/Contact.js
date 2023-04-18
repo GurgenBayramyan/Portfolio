@@ -1,11 +1,12 @@
 import React from 'react'
+import me from './me.jpg'
 
 export default function Contact() {
   return (
     <>
     <main className="section">
         < div className='my_image'>
-            <img  src='./me.jpg' alt='my image' title='my image' />
+            <img  src={me} alt='my image' title='my image' />
         </div>
         <div className="container">
                 <h1 className="title-1">Contacts</h1>
