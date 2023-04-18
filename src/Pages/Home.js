@@ -13,10 +13,12 @@ export default function () {
             <p>Html Css Scss Bootstrap JavaScropt Git & GitHub React js Redux Toolkit </p>
           </li>
             <li className="content-list__item">
-              <h2 className="title-2">in procces...</h2>
-              <p><br/><i> TypeScript ...</i></p>
+              <h2 className="title-2">in procces... </h2>
+              <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+              <p><br/><i> TypeScript, Next js and Vite ...</i></p>
             </li>      
             <h2 className="title-2">a bit of my goals</h2>
+            <div class="lds-heart"><div></div></div>
             <p className='goals'>I have a very strong desire to be able to show the maximum of my capabilities. I improve every day and follow the latest technologies. please give me that chance and I am sure I can do it justify me as the best worker. I have very big dreams in the field of programming, so I will continue to improve endlessly. thanks for giving me some of your time...</p>
           </ul>
         </div>
